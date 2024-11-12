@@ -1,0 +1,234 @@
+2024-10-31 00:00:01 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]commandType是cd
+2024-10-31 00:00:01 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-31 00:00:01 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:00:01 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:00:01 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:00:33 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-31 00:00:33 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:00:33 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:00:33 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:00:33 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:01:36 INFO  CommandController:56 - commandCon中，拆分后的指令是[encry, 20220669贾轲2.doc]commandType是encry
+2024-10-31 00:01:36 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:01:36 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[encry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\20220669贾轲2.doc, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2]
+2024-10-31 00:01:41 INFO  CommandController:56 - commandCon中，拆分后的指令是[]commandType是
+2024-10-31 00:01:43 INFO  CommandController:56 - commandCon中，拆分后的指令是[]commandType是
+2024-10-31 00:01:53 INFO  CommandController:56 - commandCon中，拆分后的指令是[encry, 20220669贾轲2.doc]commandType是encry
+2024-10-31 00:01:53 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:01:53 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[encry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\20220669贾轲2.doc, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2]
+2024-10-31 00:05:32 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-31 00:05:32 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:05:32 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:05:32 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:05:32 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:05:44 INFO  CommandController:56 - commandCon中，拆分后的指令是[encry, BLGwin.txt]commandType是encry
+2024-10-31 00:05:44 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:05:44 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[encry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:05:47 DEBUG AbstractSymEncryption:35 - 在加密时，读取的密钥是javax.crypto.spec.SecretKeySpec@a46fde56
+2024-10-31 00:05:47 DEBUG AbstractSymEncryption:42 - 在加密时，读取的文件路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt
+2024-10-31 00:05:47 DEBUG AbstractSymEncryption:47 - 加密时，写入的后缀名是BLGwin.txt
+2024-10-31 00:06:08 INFO  CommandController:56 - commandCon中，拆分后的指令是[decry, BLGwin.enc]commandType是decry
+2024-10-31 00:06:08 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:06:08 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[decry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.enc, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:06:43 INFO  CopyFunc:116 - 在FileEncry中，解密时，处理完的私钥绝对路劲为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key\BLGwin.key
+2024-10-31 00:06:43 INFO  CopyFunc:132 - 在FileEncrypto的decrypt方法中，source为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.enc，target为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:06:43 DEBUG AbstractSymEncryption:73 - 在解密时，取得的原文件名是BLGwin.txt
+2024-10-31 00:06:43 DEBUG AbstractSymEncryption:76 - 在解密时，输出的文件路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt
+2024-10-31 00:06:43 DEBUG AbstractSymEncryption:87 - 在解密时，最终输出的文件路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\(1)BLGwin.txt
+2024-10-31 00:07:26 INFO  CommandController:56 - commandCon中，拆分后的指令是[encry, BLGwin.txt]commandType是encry
+2024-10-31 00:07:26 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:07:26 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[encry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:07:30 INFO  CopyFunc:80 - 公钥保存相对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/RSA_pub，私钥保存相对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/RSA_key
+2024-10-31 00:07:30 INFO  CopyFunc:83 - 最终，公钥绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\RSA_pub\BLGwin.pub，私钥绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\RSA_key\BLGwin.key
+2024-10-31 00:07:30 INFO  EncryTool:34 - 生成公钥时，KeyPairGen已完成初始化
+2024-10-31 00:08:30 INFO  CommandController:56 - commandCon中，拆分后的指令是[cp, test.txt]commandType是cp
+2024-10-31 00:08:30 INFO  CommandController:69 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).txt
+2024-10-31 00:08:30 INFO  CopyFunc:21 - copy中收到的指令是[D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).txt]
+2024-10-31 00:10:08 INFO  CommandController:56 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-31 00:10:08 INFO  CommandController:138 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code指令长度为1
+2024-10-31 00:10:58 INFO  CommandController:56 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-31 00:10:58 INFO  CommandController:138 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code指令长度为1
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:07 INFO  ShowFunc:148 - 此时解析到的大小为 1KB
+2024-10-31 00:11:23 INFO  CommandController:56 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-31 00:11:23 INFO  CommandController:138 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code指令长度为1
+2024-10-31 00:11:45 INFO  CommandController:56 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-31 00:11:45 INFO  CommandController:138 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code指令长度为1
+2024-10-31 00:12:14 INFO  CommandController:56 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-31 00:12:14 INFO  CommandController:138 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code指令长度为1
+2024-10-31 00:12:57 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-31 00:12:57 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-31 00:12:57 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:12:57 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:12:57 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:13:15 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-31 00:13:15 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 00:13:15 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:13:15 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:13:15 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:13:27 INFO  CommandController:56 - commandCon中，拆分后的指令是[mkdir, jiake]commandType是mkdir
+2024-10-31 00:13:27 INFO  CommandController:100 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake
+2024-10-31 00:13:27 INFO  CreateFunc:19 - 接收到的参数是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake
+2024-10-31 00:13:27 INFO  CreateFunc:22 - 替换后的参数是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake
+2024-10-31 00:13:27 INFO  CreateFunc:29 - 运行到这步了，接收到的路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake
+2024-10-31 00:13:27 INFO  CreateFunc:33 - 此时的路径为：D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake
+2024-10-31 00:13:27 INFO  CreateFunc:35 - 目录创建成功：D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake
+2024-10-31 00:13:42 INFO  CommandController:56 - commandCon中，拆分后的指令是[touch, jiake.txt]commandType是touch
+2024-10-31 00:13:42 INFO  CommandController:100 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake.txt
+2024-10-31 00:13:42 INFO  CreateFunc:19 - 接收到的参数是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake.txt
+2024-10-31 00:13:42 INFO  CreateFunc:22 - 替换后的参数是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake.txt
+2024-10-31 00:13:42 INFO  CreateFunc:29 - 运行到这步了，接收到的路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake.txt
+2024-10-31 00:13:42 INFO  CreateFunc:59 - createFile要执行了
+2024-10-31 00:13:42 INFO  CreateFunc:61 - 文件创建成功：D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\jiake.txt
+2024-10-31 00:13:55 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, jiake.txt]commandType是rm
+2024-10-31 00:14:15 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, -r, jiake]commandType是rm
+2024-10-31 00:14:25 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, AES_key]commandType是cd
+2024-10-31 00:14:25 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:14:25 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:14:25 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:14:25 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:14:28 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-31 00:14:28 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:14:28 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:14:28 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:14:28 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:14:41 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, -r, AES_key]commandType是rm
+2024-10-31 00:14:50 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, -r, RSA_key]commandType是rm
+2024-10-31 00:14:58 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, -r, RSA_pub]commandType是rm
+2024-10-31 00:15:04 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, BLGwin.enc]commandType是rm
+2024-10-31 00:15:13 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, BLGwin(1).enc]commandType是rm
+2024-10-31 00:15:39 INFO  CommandController:56 - commandCon中，拆分后的指令是[cat, (1)BLGwin.txt]commandType是cat
+2024-10-31 00:15:58 INFO  CommandController:56 - commandCon中，拆分后的指令是[cat, BLGwin.txt]commandType是cat
+2024-10-31 00:16:17 INFO  CommandController:56 - commandCon中，拆分后的指令是[cat, testWord.docx]commandType是cat
+2024-10-31 00:17:05 INFO  CommandController:56 - commandCon中，拆分后的指令是[cp, testWord.docx]commandType是cp
+2024-10-31 00:17:05 INFO  CommandController:69 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testWord(1).docx
+2024-10-31 00:17:05 INFO  CopyFunc:21 - copy中收到的指令是[D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testWord.docx, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testWord(1).docx]
+2024-10-31 00:17:30 INFO  CommandController:56 - commandCon中，拆分后的指令是[syn]commandType是syn
+2024-10-31 00:17:56 INFO  CommandController:56 - commandCon中，拆分后的指令是[encry, BLGwin.txt]commandType是encry
+2024-10-31 00:17:56 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:17:56 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[encry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:18:11 DEBUG AbstractSymEncryption:35 - 在加密时，读取的密钥是javax.crypto.spec.SecretKeySpec@6c314bc9
+2024-10-31 00:18:11 DEBUG AbstractSymEncryption:42 - 在加密时，读取的文件路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt
+2024-10-31 00:18:11 DEBUG AbstractSymEncryption:47 - 加密时，写入的后缀名是BLGwin.txt
+2024-10-31 00:18:41 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, AES_key]commandType是cd
+2024-10-31 00:18:41 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:18:41 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:18:41 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:18:41 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:18:49 INFO  CommandController:56 - commandCon中，拆分后的指令是[cat, BLGwin.key]commandType是cat
+2024-10-31 00:19:09 INFO  CommandController:56 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-31 00:19:09 INFO  CommandController:140 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key
+2024-10-31 00:19:09 INFO  CommandController:146 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:19:09 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:19:09 INFO  CommandController:154 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:19:49 INFO  CommandController:56 - commandCon中，拆分后的指令是[decry, BLGwin.enc]commandType是decry
+2024-10-31 00:19:49 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:19:49 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[decry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.enc, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:20:37 INFO  CopyFunc:116 - 在FileEncry中，解密时，处理完的私钥绝对路劲为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\AES_key\BLGwin.key
+2024-10-31 00:20:37 INFO  CopyFunc:132 - 在FileEncrypto的decrypt方法中，source为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.enc，target为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:20:37 DEBUG AbstractSymEncryption:73 - 在解密时，取得的原文件名是BLGwin.txt
+2024-10-31 00:20:37 DEBUG AbstractSymEncryption:76 - 在解密时，输出的文件路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt
+2024-10-31 00:20:37 DEBUG AbstractSymEncryption:87 - 在解密时，最终输出的文件路径是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\(2)BLGwin.txt
+2024-10-31 00:20:56 INFO  CommandController:56 - commandCon中，拆分后的指令是[cat, (2)BLGwin.txt]commandType是cat
+2024-10-31 00:21:27 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, (1)BLGwin.txt]commandType是rm
+2024-10-31 00:21:36 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, (2)BLGwin.txt]commandType是rm
+2024-10-31 00:21:54 INFO  CommandController:56 - commandCon中，拆分后的指令是[rm, BLGwin.enc]commandType是rm
+2024-10-31 00:22:05 INFO  CommandController:56 - commandCon中，拆分后的指令是[encry, test.txt]commandType是encry
+2024-10-31 00:22:05 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:22:05 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[encry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:22:53 INFO  CommandController:56 - commandCon中，拆分后的指令是[encry, BLGwin.txt]commandType是encry
+2024-10-31 00:22:53 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:22:53 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[encry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:22:58 INFO  CopyFunc:80 - 公钥保存相对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/RSA_pub，私钥保存相对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/RSA_key
+2024-10-31 00:22:58 INFO  CopyFunc:83 - 最终，公钥绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\RSA_pub\BLGwin.pub，私钥绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\RSA_key\BLGwin.key
+2024-10-31 00:22:58 INFO  EncryTool:34 - 生成公钥时，KeyPairGen已完成初始化
+2024-10-31 00:23:38 INFO  CommandController:56 - commandCon中，拆分后的指令是[decry, BLGwin.enc]commandType是decry
+2024-10-31 00:23:38 INFO  CommandController:45 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:23:38 INFO  CopyFunc:55 - FileEncryptor中收到的指令是[decry, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.enc, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:24:06 INFO  CopyFunc:116 - 在FileEncry中，解密时，处理完的私钥绝对路劲为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\RSA_key\BLGwin.key
+2024-10-31 00:24:06 INFO  CopyFunc:132 - 在FileEncrypto的decrypt方法中，source为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\BLGwin.enc，target为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:25:18 INFO  CommandController:56 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-31 00:25:18 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:25:18 INFO  ZipFunc:44 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:25:23 INFO  ZipFunc:103 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip创建输出流
+2024-10-31 00:25:23 DEBUG ZipFunc:196 - 识别到源地址D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt为文件类型
+2024-10-31 00:25:25 INFO  ZipFunc:158 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip
+2024-10-31 00:25:25 INFO  ZipFunc:72 - zip/unzip指令执行完毕,应该构筑窗口了
+2024-10-31 00:25:25 INFO  DisplayManager:97 - 显示完成对话框: zip指令执行成功, 耗时2.5594497秒
+2024-10-31 00:25:25 INFO  DisplayManager:115 - 完成对话框显示完成
+2024-10-31 00:25:25 INFO  ZipFunc:74 - 窗口应该构造出来了
+2024-10-31 00:25:38 INFO  CommandController:56 - commandCon中，拆分后的指令是[syc]commandType是syc
+2024-10-31 00:25:38 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:26:12 INFO  CommandController:56 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-31 00:26:12 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:26:12 INFO  ZipFunc:44 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:26:14 INFO  ZipFunc:103 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).zip创建输出流
+2024-10-31 00:26:14 DEBUG ZipFunc:196 - 识别到源地址D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt为文件类型
+2024-10-31 00:26:17 INFO  ZipFunc:158 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).zip
+2024-10-31 00:26:46 INFO  CommandController:56 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-31 00:26:46 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:26:46 INFO  ZipFunc:44 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:26:48 INFO  ZipFunc:103 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2).zip创建输出流
+2024-10-31 00:26:48 DEBUG ZipFunc:196 - 识别到源地址D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt为文件类型
+2024-10-31 00:26:50 INFO  ZipFunc:158 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2).zip
+2024-10-31 00:27:06 INFO  CommandController:56 - commandCon中，拆分后的指令是[unzip, test.zip]commandType是unzip
+2024-10-31 00:27:06 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:27:06 INFO  ZipFunc:44 - zip中收到的指令是[unzip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:27:12 INFO  ZipFunc:263 - 解压完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test
+2024-10-31 00:27:12 INFO  ZipFunc:72 - zip/unzip指令执行完毕,应该构筑窗口了
+2024-10-31 00:27:12 INFO  DisplayManager:97 - 显示完成对话框: unzip指令执行成功, 耗时1.6201044秒
+2024-10-31 00:27:12 INFO  DisplayManager:115 - 完成对话框显示完成
+2024-10-31 00:27:12 INFO  ZipFunc:74 - 窗口应该构造出来了
+2024-10-31 00:27:39 INFO  CommandController:56 - commandCon中，拆分后的指令是[syc]commandType是syc
+2024-10-31 00:27:39 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:27:42 INFO  CommandController:56 - commandCon中，拆分后的指令是[help]commandType是help
+2024-10-31 00:28:31 INFO  CommandController:56 - commandCon中，拆分后的指令是[unzip, test(2).zip]commandType是unzip
+2024-10-31 00:28:31 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 00:28:31 INFO  ZipFunc:44 - zip中收到的指令是[unzip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2).zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 00:28:34 INFO  ZipFunc:263 - 解压完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2)
+2024-10-31 09:54:24 INFO  CommandController:66 - commandCon中，拆分后的指令是[help]commandType是help
+2024-10-31 10:20:08 INFO  CommandController:66 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-31 10:20:08 INFO  CommandController:155 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-31 10:20:08 INFO  CommandController:161 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 10:20:08 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 10:20:08 INFO  CommandController:169 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 10:20:48 INFO  CommandController:66 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-31 10:20:48 INFO  CommandController:155 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-31 10:20:48 INFO  CommandController:161 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 10:20:48 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 10:20:48 INFO  CommandController:169 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 10:20:55 INFO  CommandController:66 - commandCon中，拆分后的指令是[unzip, test.zip]commandType是unzip
+2024-10-31 10:20:55 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 10:20:55 INFO  ZipFunc:45 - zip中收到的指令是[unzip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 10:21:00 INFO  ZipFunc:260 - 解压完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1)
+2024-10-31 10:21:00 INFO  ZipFunc:73 - zip/unzip指令执行完毕,应该构筑窗口了
+2024-10-31 10:21:00 INFO  DisplayManager:97 - 显示完成对话框: unzip指令执行成功, 耗时2.7068714秒
+2024-10-31 10:21:00 INFO  DisplayManager:115 - 完成对话框显示完成
+2024-10-31 10:21:00 INFO  ZipFunc:75 - 窗口应该构造出来了
+2024-10-31 10:24:36 INFO  CommandController:66 - commandCon中，拆分后的指令是[unzip, test.zip]commandType是unzip
+2024-10-31 10:24:36 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 10:24:36 INFO  ZipFunc:45 - zip中收到的指令是[unzip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 10:24:40 INFO  ZipFunc:260 - 解压完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(3)
+2024-10-31 10:24:40 INFO  ZipFunc:73 - zip/unzip指令执行完毕,应该构筑窗口了
+2024-10-31 10:24:40 INFO  DisplayManager:97 - 显示完成对话框: unzip指令执行成功, 耗时2.9177811秒
+2024-10-31 10:24:40 INFO  DisplayManager:115 - 完成对话框显示完成
+2024-10-31 10:24:40 INFO  ZipFunc:75 - 窗口应该构造出来了
+2024-10-31 10:24:47 INFO  CommandController:66 - commandCon中，拆分后的指令是[syc]commandType是syc
+2024-10-31 10:24:47 INFO  MainController:66 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 10:26:34 INFO  CommandController:66 - commandCon中，拆分后的指令是[unzip, test.zip]commandType是unzip
+2024-10-31 10:26:34 INFO  CommandController:132 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-31 10:26:34 INFO  ZipFunc:45 - zip中收到的指令是[unzip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-31 10:26:38 INFO  ZipFunc:260 - 解压完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(4)
+2024-10-31 10:26:38 INFO  ZipFunc:73 - zip/unzip指令执行完毕,应该构筑窗口了
+2024-10-31 10:26:38 INFO  DisplayManager:97 - 显示完成对话框: unzip指令执行成功, 耗时2.8193255秒
+2024-10-31 10:26:38 INFO  DisplayManager:115 - 完成对话框显示完成
+2024-10-31 10:26:38 INFO  ZipFunc:75 - 窗口应该构造出来了

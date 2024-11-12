@@ -1,0 +1,733 @@
+2024-10-27 00:05:10 INFO  CommandController:31 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 00:08:43 INFO  CommandController:31 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 00:08:47 INFO  CommandController:31 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 00:10:03 INFO  CommandController:31 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 13:12:33 INFO  CommandController:38 - commandCon中，拆分后的指令是[]commandType是
+2024-10-27 13:12:35 INFO  CommandController:38 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 13:12:42 INFO  CommandController:38 - commandCon中，拆分后的指令是[zip, src]commandType是zip
+2024-10-27 13:12:42 INFO  ZipFunc:12 - zip中收到的指令是[zip, src, D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code]
+2024-10-27 13:19:42 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 13:19:42 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:19:49 INFO  CommandController:38 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 13:19:57 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 13:20:14 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, logs]commandType是cd
+2024-10-27 13:22:57 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 13:22:57 INFO  CommandController:128 - 识别到src不是绝对路径,已将其转换为绝对路径D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:22:57 INFO  CommandController:132 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:24:14 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 13:24:14 INFO  CommandController:128 - 识别到src不是绝对路径,已将其转换为绝对路径D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:24:14 INFO  CommandController:132 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:38:38 INFO  CommandController:38 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 13:38:55 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 13:38:55 INFO  CommandController:129 - 识别到src不是绝对路径,已将其转换为绝对路径D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:38:55 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:38:55 INFO  CommandController:133 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:38:55 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:40:20 INFO  CommandController:38 - commandCon中，拆分后的指令是[zip, test]commandType是zip
+2024-10-27 13:40:58 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd]commandType是cd
+2024-10-27 13:40:58 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:41:20 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, test]commandType是cd
+2024-10-27 13:41:20 INFO  CommandController:129 - 识别到test不是绝对路径,已将其转换为绝对路径D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src\test
+2024-10-27 13:41:20 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src\test
+2024-10-27 13:41:20 INFO  CommandController:133 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src\test
+2024-10-27 13:41:20 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src\test
+2024-10-27 13:41:48 INFO  CommandController:38 - commandCon中，拆分后的指令是[cd, sss]commandType是cd
+2024-10-27 13:41:48 INFO  CommandController:129 - 识别到sss不是绝对路径,已将其转换为绝对路径D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src\test\sss
+2024-10-27 13:41:48 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src\test
+2024-10-27 13:53:41 INFO  CommandController:39 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 13:53:45 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 13:53:45 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:53:45 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:53:45 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 13:53:49 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 13:53:49 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:53:49 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:53:49 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:01 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, .]commandType是cd
+2024-10-27 13:54:01 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\.
+2024-10-27 13:54:01 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\.
+2024-10-27 13:54:01 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\.
+2024-10-27 13:54:26 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, .]commandType是cd
+2024-10-27 13:54:26 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\.
+2024-10-27 13:54:26 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\.
+2024-10-27 13:54:26 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\.
+2024-10-27 13:54:30 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 13:54:30 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:30 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:30 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:33 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 13:54:33 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:33 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:33 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:36 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 13:54:36 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:36 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 13:54:36 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\..
+2024-10-27 14:04:41 INFO  CommandController:39 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 14:04:45 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 14:04:45 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 14:04:45 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 14:04:45 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 14:04:47 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:36 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, src]commandType是cd
+2024-10-27 14:05:36 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 14:05:36 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 14:05:36 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\src
+2024-10-27 14:05:40 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:40 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:05:40 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:05:40 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:05:43 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:43 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2
+2024-10-27 14:05:43 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2
+2024-10-27 14:05:43 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2
+2024-10-27 14:05:45 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:45 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork
+2024-10-27 14:05:45 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork
+2024-10-27 14:05:45 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork
+2024-10-27 14:05:48 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:48 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA
+2024-10-27 14:05:48 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA
+2024-10-27 14:05:48 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA
+2024-10-27 14:05:49 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:49 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn
+2024-10-27 14:05:49 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn
+2024-10-27 14:05:49 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn
+2024-10-27 14:05:51 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:51 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU
+2024-10-27 14:05:51 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU
+2024-10-27 14:05:51 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU
+2024-10-27 14:05:52 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:52 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo
+2024-10-27 14:05:52 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo
+2024-10-27 14:05:52 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo
+2024-10-27 14:05:55 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:05:55 INFO  CommandController:123 - 从命令中取得的绝对路径为D:
+2024-10-27 14:05:55 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:
+2024-10-27 14:05:55 INFO  CommandController:130 - CommandCon的currentPath已改变为D:
+2024-10-27 14:05:57 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 14:06:09 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, .]commandType是cd
+2024-10-27 14:06:09 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:06:09 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:06:09 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:06:11 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, .]commandType是cd
+2024-10-27 14:06:11 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:06:11 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:06:11 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:06:12 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd]commandType是cd
+2024-10-27 14:06:21 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ~]commandType是cd
+2024-10-27 14:06:21 INFO  CommandController:123 - 从命令中取得的绝对路径为C:\Users\26861
+2024-10-27 14:06:21 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为C:\Users\26861
+2024-10-27 14:06:21 INFO  CommandController:130 - CommandCon的currentPath已改变为C:\Users\26861
+2024-10-27 14:06:28 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, D]commandType是cd
+2024-10-27 14:06:28 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024 Autumn\JAVA\HomeWork\Project2\exp2Code\D
+2024-10-27 14:06:56 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, D:\]commandType是cd
+2024-10-27 14:06:56 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\
+2024-10-27 14:06:56 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\
+2024-10-27 14:06:56 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\
+2024-10-27 14:07:37 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024, Autumn\JAVA\HomeWork\Project2\exp2Code]commandType是cd
+2024-10-27 14:07:37 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024
+2024-10-27 14:07:42 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024, Autumn\JAVA\HomeWork\Project2\exp2Code\]commandType是cd
+2024-10-27 14:07:42 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024
+2024-10-27 14:07:58 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024, Autumn\JAVA\HomeWork\Project2\exp2Code\]commandType是cd
+2024-10-27 14:07:58 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024
+2024-10-27 14:29:16 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code>]commandType是cd
+2024-10-27 14:40:52 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, .]commandType是cd
+2024-10-27 14:40:52 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:40:52 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:40:52 INFO  CommandController:130 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 14:40:54 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, s]commandType是cd
+2024-10-27 14:40:54 INFO  CommandController:123 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\s
+2024-10-27 14:41:32 INFO  CommandController:39 - commandCon中，拆分后的指令是[cd, ?]commandType是cd
+2024-10-27 14:45:51 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ?]commandType是cd
+2024-10-27 14:46:45 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ?]commandType是cd
+2024-10-27 14:46:54 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, test?]commandType是cd
+2024-10-27 14:48:08 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, test]commandType是cd
+2024-10-27 14:48:08 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\test
+2024-10-27 14:49:12 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd]commandType是cd
+2024-10-27 14:49:21 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, null]commandType是cd
+2024-10-27 14:49:21 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\null
+2024-10-27 14:49:35 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, pom.xml]commandType是cd
+2024-10-27 14:49:35 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\pom.xml
+2024-10-27 14:55:33 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, src]commandType是zip
+2024-10-27 14:55:33 INFO  ZipFunc:12 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\src, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code]
+2024-10-27 16:21:10 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, logs]commandType是zip
+2024-10-27 16:21:10 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\logs, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code]
+2024-10-27 16:21:10 ERROR ZipFunc:34 - 处理zip/unzip命令时发生错误: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code (拒绝访问。)
+java.io.FileNotFoundException: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:118) ~[?:?]
+	at org.func.ZipFunc.zip(ZipFunc.java:40) ~[classes/:?]
+	at org.func.ZipFunc.func(ZipFunc.java:27) [classes/:?]
+	at org.controller.CommandController.handleZip(CommandController.java:83) [classes/:?]
+	at org.controller.CommandController.handRequest(CommandController.java:50) [classes/:?]
+	at org.controller.MainController.handleRequest(MainController.java:45) [classes/:?]
+	at org.Main.main(Main.java:28) [classes/:?]
+2024-10-27 16:25:38 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:25:38 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:25:38 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:25:38 INFO  CommandController:137 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:25:42 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:25:42 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:25:52 INFO  CommandController:40 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 16:26:02 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:26:02 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:27:43 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:27:43 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:27:43 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:27:43 INFO  CommandController:137 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:27:49 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:27:49 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:27:58 INFO  CommandController:40 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 16:28:50 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, exp2Code]commandType是cd
+2024-10-27 16:28:50 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\exp2Code
+2024-10-27 16:30:03 INFO  CommandController:40 - commandCon中，拆分后的指令是[syn]commandType是syn
+2024-10-27 16:30:30 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:30:30 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:30:37 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest]commandType是cd
+2024-10-27 16:31:23 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:31:23 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:31:23 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:31:23 INFO  CommandController:137 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:31:42 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:31:42 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:31:47 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest]commandType是cd
+2024-10-27 16:32:20 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest]commandType是cd
+2024-10-27 16:32:20 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:35:20 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest]commandType是cd
+2024-10-27 16:35:20 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:36:01 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:36:01 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:36:01 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:36:01 INFO  CommandController:138 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:36:04 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:36:04 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:38:44 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:38:44 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 16:38:44 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:38:44 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:38:44 INFO  CommandController:139 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:38:50 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:38:50 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:38:50 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code\expTest
+2024-10-27 16:39:57 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:39:57 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 16:39:57 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:39:57 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:39:57 INFO  CommandController:139 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:40:00 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:40:00 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:40:00 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:40:00 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:40:00 INFO  CommandController:139 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:40:11 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 16:40:11 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 16:40:11 ERROR ZipFunc:34 - 处理zip/unzip命令时发生错误: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest (拒绝访问。)
+java.io.FileNotFoundException: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:118) ~[?:?]
+	at org.func.ZipFunc.zip(ZipFunc.java:40) ~[classes/:?]
+	at org.func.ZipFunc.func(ZipFunc.java:27) [classes/:?]
+	at org.controller.CommandController.handleZip(CommandController.java:83) [classes/:?]
+	at org.controller.CommandController.handRequest(CommandController.java:50) [classes/:?]
+	at org.controller.MainController.handleRequest(MainController.java:45) [classes/:?]
+	at org.Main.main(Main.java:28) [classes/:?]
+2024-10-27 16:49:54 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:49:54 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 16:49:54 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:49:54 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:49:54 INFO  CommandController:139 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:49:58 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:49:58 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:49:58 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:49:58 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:49:58 INFO  CommandController:139 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:50:04 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 16:50:04 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 16:50:04 ERROR ZipFunc:34 - 处理zip/unzip命令时发生错误: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest (拒绝访问。)
+java.io.FileNotFoundException: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[?:?]
+	at org.func.ZipFunc.zip(ZipFunc.java:47) ~[classes/:?]
+	at org.func.ZipFunc.func(ZipFunc.java:27) [classes/:?]
+	at org.controller.CommandController.handleZip(CommandController.java:83) [classes/:?]
+	at org.controller.CommandController.handRequest(CommandController.java:50) [classes/:?]
+	at org.controller.MainController.handleRequest(MainController.java:45) [classes/:?]
+	at org.Main.main(Main.java:28) [classes/:?]
+2024-10-27 16:51:53 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 16:51:53 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 16:51:53 ERROR ZipFunc:34 - 处理zip/unzip命令时发生错误: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest (拒绝访问。)
+java.io.FileNotFoundException: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[?:?]
+	at org.func.ZipFunc.zip(ZipFunc.java:47) ~[classes/:?]
+	at org.func.ZipFunc.func(ZipFunc.java:27) [classes/:?]
+	at org.controller.CommandController.handleZip(CommandController.java:83) [classes/:?]
+	at org.controller.CommandController.handRequest(CommandController.java:50) [classes/:?]
+	at org.controller.MainController.handleRequest(MainController.java:45) [classes/:?]
+	at org.Main.main(Main.java:28) [classes/:?]
+2024-10-27 16:57:09 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 16:57:09 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 16:57:09 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:57:09 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:57:09 INFO  CommandController:139 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:57:19 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 16:57:19 INFO  CommandController:125 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 16:57:19 INFO  CommandController:131 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:57:19 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:57:19 INFO  CommandController:139 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 16:57:25 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 16:57:25 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 17:08:57 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 17:08:57 INFO  CommandController:129 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 17:08:57 INFO  CommandController:135 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:08:57 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:08:57 INFO  CommandController:143 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:09:02 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 17:09:02 INFO  CommandController:129 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:09:02 INFO  CommandController:135 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:09:02 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:09:02 INFO  CommandController:143 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:09:17 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt, tar]commandType是zip
+2024-10-27 17:09:18 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar]
+2024-10-27 17:09:18 INFO  ZipFunc:58 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar
+2024-10-27 17:09:47 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 17:09:47 INFO  CommandController:129 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 17:09:47 INFO  CommandController:135 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:09:47 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:09:47 INFO  CommandController:143 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:09:54 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 17:09:54 INFO  CommandController:129 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:09:54 INFO  CommandController:135 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:09:54 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:09:54 INFO  CommandController:143 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:10:28 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt, tar.zip]commandType是zip
+2024-10-27 17:10:28 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar.zip]
+2024-10-27 17:10:28 INFO  ZipFunc:58 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar.zip
+2024-10-27 17:16:20 INFO  CommandController:40 - commandCon中，拆分后的指令是[CD, ..]commandType是CD
+2024-10-27 17:16:26 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 17:16:26 INFO  CommandController:130 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 17:16:26 INFO  CommandController:136 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:16:26 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:16:26 INFO  CommandController:144 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:16:40 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 17:16:40 INFO  CommandController:130 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:16:40 INFO  CommandController:136 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:16:40 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:16:40 INFO  CommandController:144 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:16:52 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt, tar2.zip]commandType是zip
+2024-10-27 17:16:52 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar2.zip]
+2024-10-27 17:16:52 INFO  ZipFunc:58 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar2.zip
+2024-10-27 17:20:34 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 17:20:34 INFO  CommandController:130 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 17:20:34 INFO  CommandController:136 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:20:34 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:20:34 INFO  CommandController:144 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:20:38 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 17:20:38 INFO  CommandController:130 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 17:20:38 INFO  CommandController:136 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:20:38 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:20:38 INFO  CommandController:144 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 17:21:00 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt, tar3.zip]commandType是zip
+2024-10-27 17:21:00 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar3.zip]
+2024-10-27 17:21:00 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar3.zip创建输出流
+2024-10-27 18:19:25 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 18:19:25 INFO  CommandController:130 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 18:19:25 INFO  CommandController:136 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:19:25 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:19:25 INFO  CommandController:144 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:19:31 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 18:19:31 INFO  CommandController:130 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:19:31 INFO  CommandController:136 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:19:31 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:19:31 INFO  CommandController:144 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:19:43 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt, tar4.zip]commandType是zip
+2024-10-27 18:19:43 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar4.zip]
+2024-10-27 18:19:43 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar4.zip创建输出流
+2024-10-27 18:19:43 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar4.zip
+2024-10-27 18:20:53 INFO  CommandController:40 - commandCon中，拆分后的指令是[]commandType是
+2024-10-27 18:21:12 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt, tar5.zip]commandType是zip
+2024-10-27 18:21:12 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar5.zip]
+2024-10-27 18:21:12 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar5.zip创建输出流
+2024-10-27 18:21:13 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\tar5.zip
+2024-10-27 18:40:08 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 18:40:08 INFO  CommandController:132 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 18:40:08 INFO  CommandController:138 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:40:08 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:40:08 INFO  CommandController:146 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:40:12 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 18:40:12 INFO  CommandController:132 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:40:12 INFO  CommandController:138 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:40:12 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:40:12 INFO  CommandController:146 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:40:18 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 18:40:18 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/test.txt]
+2024-10-27 18:40:18 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/test.txt创建输出流
+2024-10-27 18:40:18 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/test.txt
+2024-10-27 18:43:27 INFO  CommandController:40 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 18:43:50 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 18:43:50 INFO  CommandController:133 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 18:43:50 INFO  CommandController:139 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:43:50 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:43:50 INFO  CommandController:147 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:43:55 INFO  CommandController:40 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 18:43:55 INFO  CommandController:133 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:43:55 INFO  CommandController:139 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:43:55 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:43:55 INFO  CommandController:147 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:43:59 INFO  CommandController:40 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 18:43:59 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/test.txt.zip]
+2024-10-27 18:43:59 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/test.txt.zip创建输出流
+2024-10-27 18:43:59 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest/test.txt.zip
+2024-10-27 18:56:07 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 18:56:07 INFO  CommandController:124 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 18:56:07 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:56:07 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:56:07 INFO  CommandController:138 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:56:12 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 18:56:12 INFO  CommandController:124 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:56:12 INFO  CommandController:130 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:56:12 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:56:12 INFO  CommandController:138 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:56:20 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 18:56:20 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 18:58:03 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 18:58:03 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 18:58:03 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:58:03 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:58:03 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:58:07 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 18:58:07 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 18:58:07 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:58:07 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:58:07 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:58:13 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 18:58:13 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:58:13 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 18:58:13 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 19:03:03 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 19:03:03 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 19:03:03 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:03:03 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:03:03 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:03:08 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 19:03:08 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:03:08 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:03:08 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:03:08 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:03:13 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 19:03:13 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:03:13 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:03:13 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 19:14:00 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 19:14:00 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 19:14:00 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:14:00 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:14:00 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:14:03 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 19:14:03 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 19:14:03 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:14:03 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:14:03 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:14:08 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 19:14:08 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:14:08 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 19:14:08 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest]
+2024-10-27 22:05:20 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 22:05:20 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 22:05:20 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:05:20 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:05:20 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:05:24 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 22:05:24 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:05:24 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:05:24 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:05:24 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:05:29 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 22:05:29 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:05:29 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip
+2024-10-27 22:05:29 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip]
+2024-10-27 22:05:29 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip创建输出流
+2024-10-27 22:05:29 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.zip
+2024-10-27 22:05:36 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 22:05:36 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:05:36 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).zip
+2024-10-27 22:05:36 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).zip]
+2024-10-27 22:05:36 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).zip创建输出流
+2024-10-27 22:05:36 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).zip
+2024-10-27 22:05:48 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test.txt]commandType是zip
+2024-10-27 22:05:48 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:05:48 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2).zip
+2024-10-27 22:05:48 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test.txt, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2).zip]
+2024-10-27 22:05:48 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2).zip创建输出流
+2024-10-27 22:05:48 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(2).zip
+2024-10-27 22:06:08 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, test(1).zip]commandType是zip
+2024-10-27 22:06:08 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:06:08 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1)(1).zip
+2024-10-27 22:06:08 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1).zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1)(1).zip]
+2024-10-27 22:06:08 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1)(1).zip创建输出流
+2024-10-27 22:06:08 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\test(1)(1).zip
+2024-10-27 22:08:10 INFO  CommandController:41 - commandCon中，拆分后的指令是[syc]commandType是syc
+2024-10-27 22:08:10 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:08:22 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 22:08:22 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:08:22 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip
+2024-10-27 22:08:22 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip]
+2024-10-27 22:08:22 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip创建输出流
+2024-10-27 22:08:22 INFO  ZipFunc:70 - 要进行压缩时，此时获取到的有2个文件
+2024-10-27 22:08:22 INFO  ZipFunc:70 - 要进行压缩时，此时获取到的有1个文件
+2024-10-27 22:08:22 INFO  ZipFunc:70 - 要进行压缩时，此时获取到的有1个文件
+2024-10-27 22:08:22 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip
+2024-10-27 22:15:05 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 22:15:05 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 22:15:05 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:15:05 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:15:05 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:15:10 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 22:15:10 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:15:10 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:15:10 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:15:10 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:15:28 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 22:15:28 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:15:28 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip
+2024-10-27 22:15:28 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip]
+2024-10-27 22:15:28 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip创建输出流
+2024-10-27 22:15:28 INFO  ZipFunc:70 - 要进行压缩时，此时获取到的有2个文件
+2024-10-27 22:15:28 INFO  ZipFunc:70 - 要进行压缩时，此时获取到的有1个文件
+2024-10-27 22:15:28 INFO  ZipFunc:70 - 要进行压缩时，此时获取到的有1个文件
+2024-10-27 22:15:28 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip
+2024-10-27 22:19:25 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 22:19:25 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 22:19:25 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:19:25 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:19:25 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:19:30 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 22:19:30 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:19:30 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:19:30 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:19:30 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:19:38 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict.zip]commandType是zip
+2024-10-27 22:19:38 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:19:38 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip
+2024-10-27 22:19:38 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip]
+2024-10-27 22:19:38 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip创建输出流
+2024-10-27 22:19:38 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip
+2024-10-27 22:49:05 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 22:49:05 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 22:49:05 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:49:05 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:49:05 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:49:10 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 22:49:10 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:49:10 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:49:10 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:49:10 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:49:17 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 22:49:17 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:49:17 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(3).zip
+2024-10-27 22:49:17 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(3).zip]
+2024-10-27 22:49:17 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(3).zip创建输出流
+2024-10-27 22:49:17 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(3).zip
+2024-10-27 22:51:15 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 22:51:15 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 22:51:15 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:51:15 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:51:15 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:51:20 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 22:51:20 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:51:20 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:51:20 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:51:20 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:51:24 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 22:51:24 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:51:24 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(4).zip
+2024-10-27 22:51:24 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(4).zip]
+2024-10-27 22:51:24 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(4).zip创建输出流
+2024-10-27 22:51:24 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(4).zip
+2024-10-27 22:55:47 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 22:55:47 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 22:55:47 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:55:47 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:55:47 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:55:52 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 22:55:52 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 22:55:52 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:55:52 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:55:52 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:55:58 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 22:55:58 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 22:55:58 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(5).zip
+2024-10-27 22:55:58 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(5).zip]
+2024-10-27 22:55:58 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(5).zip创建输出流
+2024-10-27 22:55:58 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 22:55:58 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 22:55:58 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 22:55:58 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 22:55:58 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 22:55:58 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(5).zip
+2024-10-27 23:00:52 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 23:00:52 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 23:00:52 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:00:52 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:00:52 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:00:57 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 23:00:57 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:00:57 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:00:57 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:00:57 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:01:02 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 23:01:02 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:01:02 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(6).zip
+2024-10-27 23:01:02 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(6).zip]
+2024-10-27 23:01:02 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(6).zip创建输出流
+2024-10-27 23:01:02 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 23:01:02 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 23:01:02 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 23:01:02 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:01:02 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 23:01:02 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(6).zip
+2024-10-27 23:02:17 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 23:02:17 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 23:02:17 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:02:17 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:02:17 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:02:21 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 23:02:21 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:02:21 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:02:21 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:02:21 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:02:26 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 23:02:26 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:02:26 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(7).zip
+2024-10-27 23:02:26 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(7).zip]
+2024-10-27 23:02:26 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(7).zip创建输出流
+2024-10-27 23:02:26 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 23:02:26 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 23:02:26 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 23:02:26 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:02:26 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 23:02:26 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(7).zip
+2024-10-27 23:03:53 INFO  CommandController:41 - commandCon中，拆分后的指令是[]commandType是
+2024-10-27 23:03:56 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 23:03:56 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 23:03:56 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:03:56 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:03:56 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:04:00 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 23:04:00 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:04:00 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:04:00 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:04:00 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:04:05 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 23:04:05 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:04:06 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(8).zip
+2024-10-27 23:04:06 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(8).zip]
+2024-10-27 23:04:06 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(8).zip创建输出流
+2024-10-27 23:04:06 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 23:04:06 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 23:04:06 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 23:04:06 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:04:06 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 23:04:06 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(8).zip
+2024-10-27 23:07:27 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 23:07:27 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 23:07:27 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:07:27 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:07:27 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:07:32 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 23:07:32 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:07:32 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:07:32 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:07:32 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:07:37 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 23:07:37 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:07:37 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(9).zip
+2024-10-27 23:07:37 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(9).zip]
+2024-10-27 23:07:37 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(9).zip创建输出流
+2024-10-27 23:07:37 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 23:07:37 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 23:07:37 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 23:07:37 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:07:37 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 23:07:37 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(9).zip
+2024-10-27 23:11:08 INFO  CommandController:41 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-27 23:11:16 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 23:11:16 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:11:16 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip
+2024-10-27 23:11:16 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip]
+2024-10-27 23:11:16 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip创建输出流
+2024-10-27 23:11:16 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 23:11:16 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 23:11:16 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 23:11:16 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:11:16 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 23:11:16 INFO  ZipFunc:72 - 此时处理的文件为emptyFolder，其父目录为testDict,baseDir为testDict生成的名字name为testDict/emptyFolder
+2024-10-27 23:11:16 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip
+2024-10-27 23:13:57 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, ..]commandType是cd
+2024-10-27 23:13:57 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\exp2Code
+2024-10-27 23:13:57 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:13:57 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:13:57 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:14:02 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, expTest]commandType是zip
+2024-10-27 23:14:02 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:14:02 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest.zip
+2024-10-27 23:14:02 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest.zip]
+2024-10-27 23:14:02 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest.zip创建输出流
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为expTest，其父目录为Project2,baseDir为生成的名字name为expTest
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为test.txt，其父目录为expTest,baseDir为expTest生成的名字name为expTest/test.txt
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为expTest生成的名字name为expTest/testDict
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为expTest/testDict生成的名字name为expTest/testDict/AsonD
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为expTest/testDict/AsonD生成的名字name为expTest/testDict/AsonD/atest.txt
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为expTest/testDict/AsonD/atest.txt生成的名字name为expTest/testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为expTest/testDict生成的名字name为expTest/testDict/aTest.txt
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为emptyFolder，其父目录为testDict,baseDir为expTest/testDict生成的名字name为expTest/testDict/emptyFolder
+2024-10-27 23:14:02 INFO  ZipFunc:72 - 此时处理的文件为testDict.zip，其父目录为expTest,baseDir为expTest生成的名字name为expTest/testDict.zip
+2024-10-27 23:14:02 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest.zip
+2024-10-27 23:14:32 INFO  CommandController:41 - commandCon中，拆分后的指令是[cd, expTest]commandType是cd
+2024-10-27 23:14:32 INFO  CommandController:126 - 此时传入ToAbsolutePath中的currentPath为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2
+2024-10-27 23:14:32 INFO  CommandController:132 - 从命令中取得的绝对路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:14:32 INFO  MainController:51 - MainCon已触发PathChanged方法,此时mainCon的路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:14:32 INFO  CommandController:140 - CommandCon的currentPath已改变为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:14:38 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 23:14:38 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:14:38 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip
+2024-10-27 23:14:38 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip]
+2024-10-27 23:14:38 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip创建输出流
+2024-10-27 23:14:38 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 23:14:38 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 23:14:38 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 23:14:38 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:14:38 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 23:14:38 INFO  ZipFunc:72 - 此时处理的文件为emptyFolder，其父目录为testDict,baseDir为testDict生成的名字name为testDict/emptyFolder
+2024-10-27 23:14:38 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(1).zip
+2024-10-27 23:14:44 INFO  CommandController:41 - commandCon中，拆分后的指令是[zip, testDict]commandType是zip
+2024-10-27 23:14:44 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:14:44 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip
+2024-10-27 23:14:44 INFO  ZipFunc:19 - zip中收到的指令是[zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip]
+2024-10-27 23:14:44 INFO  ZipFunc:47 - 已为文件D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip创建输出流
+2024-10-27 23:14:44 INFO  ZipFunc:72 - 此时处理的文件为testDict，其父目录为expTest,baseDir为生成的名字name为testDict
+2024-10-27 23:14:44 INFO  ZipFunc:72 - 此时处理的文件为AsonD，其父目录为testDict,baseDir为testDict生成的名字name为testDict/AsonD
+2024-10-27 23:14:44 INFO  ZipFunc:72 - 此时处理的文件为atest.txt，其父目录为AsonD,baseDir为testDict/AsonD生成的名字name为testDict/AsonD/atest.txt
+2024-10-27 23:14:44 INFO  ZipFunc:72 - 此时处理的文件为ddd.txt，其父目录为atest.txt,baseDir为testDict/AsonD/atest.txt生成的名字name为testDict/AsonD/atest.txt/ddd.txt
+2024-10-27 23:14:44 INFO  ZipFunc:72 - 此时处理的文件为aTest.txt，其父目录为testDict,baseDir为testDict生成的名字name为testDict/aTest.txt
+2024-10-27 23:14:44 INFO  ZipFunc:72 - 此时处理的文件为emptyFolder，其父目录为testDict,baseDir为testDict生成的名字name为testDict/emptyFolder
+2024-10-27 23:14:44 INFO  ZipFunc:63 - 压缩完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip
+2024-10-27 23:27:34 INFO  CommandController:41 - commandCon中，拆分后的指令是[unzip, testDict.zip]commandType是unzip
+2024-10-27 23:27:34 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:27:34 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(3).zip
+2024-10-27 23:27:34 INFO  ZipFunc:19 - zip中收到的指令是[unzip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict.zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(3).zip]
+2024-10-27 23:27:34 INFO  ZipFunc:140 - 解压完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(3).zip
+2024-10-27 23:47:51 INFO  CommandController:41 - commandCon中，拆分后的指令是[unzip, testDict(2).zip]commandType是unzip
+2024-10-27 23:47:51 INFO  CommandController:80 - 依据目的路径，构造输出路径前的tarPath是D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest
+2024-10-27 23:47:51 INFO  CommandController:82 - 依据源路径和目的路径，构造输出路径为D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2)(1).zip
+2024-10-27 23:47:51 INFO  ZipFunc:19 - zip中收到的指令是[unzip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2).zip, D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2)(1).zip]
+2024-10-27 23:47:51 INFO  ZipFunc:140 - 解压完成: D:\.ObsidianRepo\CQU\2024Autumn\JAVA\HomeWork\Project2\expTest\testDict(2)(1).zip

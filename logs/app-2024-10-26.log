@@ -1,0 +1,18 @@
+2024-10-26 13:41:35 DEBUG Main:16 - This is a debug message
+2024-10-26 13:41:35 INFO  Main:17 - This is an info message
+2024-10-26 13:41:35 WARN  Main:18 - This is a warning message
+2024-10-26 13:41:35 ERROR Main:19 - This is an error message
+2024-10-26 13:54:50 INFO  Main:16 - This is an info message
+2024-10-26 13:54:55 INFO  CommandController:24 - commandCon中，parts是 %s ,command是 %s
+2024-10-26 13:56:10 INFO  Main:16 - This is an info message
+2024-10-26 13:56:15 INFO  CommandController:24 - commandCon中，parts是[sad, sadsa]command是sad
+2024-10-26 22:59:11 INFO  CommandController:24 - commandCon中，parts是[l]command是l
+2024-10-26 23:16:16 INFO  CommandController:28 - commandCon中，拆分后的指令是[l]commandType是l
+2024-10-26 23:16:17 INFO  CommandController:28 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-26 23:19:14 INFO  CommandController:28 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-26 23:23:46 INFO  CommandController:28 - commandCon中，拆分后的指令是[]commandType是
+2024-10-26 23:23:49 INFO  CommandController:28 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-26 23:26:18 INFO  CommandController:29 - commandCon中，拆分后的指令是[]commandType是
+2024-10-26 23:26:20 INFO  CommandController:29 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-26 23:27:35 INFO  CommandController:29 - commandCon中，拆分后的指令是[ls]commandType是ls
+2024-10-26 23:44:43 INFO  CommandController:29 - commandCon中，拆分后的指令是[ls]commandType是ls
