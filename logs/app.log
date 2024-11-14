@@ -1,0 +1,143 @@
+2024-11-14 01:39:59 ERROR UserService:30 - Error initializing UserService
+java.lang.NullPointerException: null
+	at java.util.Properties$LineReader.readLine(Properties.java:434) ~[?:1.8.0_351]
+	at java.util.Properties.load0(Properties.java:353) ~[?:1.8.0_351]
+	at java.util.Properties.load(Properties.java:341) ~[?:1.8.0_351]
+	at service.UserService.<init>(UserService.java:21) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:13) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:40:00 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:30 - Error initializing UserService
+java.lang.NullPointerException: null
+	at java.util.Properties$LineReader.readLine(Properties.java:434) ~[?:1.8.0_351]
+	at java.util.Properties.load0(Properties.java:353) ~[?:1.8.0_351]
+	at java.util.Properties.load(Properties.java:341) ~[?:1.8.0_351]
+	at service.UserService.<init>(UserService.java:21) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:13) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:46:35 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:14 ERROR UserService:30 - Error initializing UserService
+java.lang.NullPointerException: null
+	at java.util.Properties$LineReader.readLine(Properties.java:434) ~[?:1.8.0_351]
+	at java.util.Properties.load0(Properties.java:353) ~[?:1.8.0_351]
+	at java.util.Properties.load(Properties.java:341) ~[?:1.8.0_351]
+	at service.UserService.<init>(UserService.java:21) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:13) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 01:48:15 ERROR UserService:59 - Error registering user
+java.lang.NullPointerException: null
+	at service.UserService.register(UserService.java:53) [classes/:?]
+	at generateRandomUsers.main(generateRandomUsers.java:19) [classes/:?]
+2024-11-14 10:27:57 INFO  UserService:27 - driver名称是com.mysql.jdbc.Driver
+2024-11-14 10:32:47 INFO  UserService:27 - driver名称是com.mysql.jdbc.Driver
