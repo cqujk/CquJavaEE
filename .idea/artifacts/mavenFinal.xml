@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mavenFinal">
+    <output-path>$PROJECT_DIR$/out/artifacts/mavenFinal</output-path>
+    <root id="archive" name="mavenFinal.war">
+      <element id="javaee-facet-resources" facet="tomcatTest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tomcatTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt-impl:0.11.2" />
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt-jackson:0.11.2" />
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt-api:0.11.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.22" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.14.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.14.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.10.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.10" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.10" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="tomcatTest/web/Web2" />
+    </root>
+  </artifact>
+</component>

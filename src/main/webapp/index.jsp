@@ -13,9 +13,11 @@
         Password: <input type="password" name="password"><br>
         <input type="submit" value="Login">
     </form>
-<%--    <%--%>
-<%--        String error = request.getParameter("error");--%>
-<%--        if("true".equals(error)){}--%>
-<%--    %>--%>
+    <%
+        String error = request.getParameter("error");
+        if("true".equals(error)){
+            out.print("<span style='color: red'>Invalid username or password</span>");
+        }
+    %>
 </body>
 </html>

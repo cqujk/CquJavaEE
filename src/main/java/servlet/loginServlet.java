@@ -1,27 +1,22 @@
-import Dao.UserDao;
+package servlet;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import service.UserService;
+import utils.JwtUtil;
 import utils.RC;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.util.Properties;
 
 @WebServlet("/login")
 public class loginServlet extends HttpServlet {
     private static final Logger logger = LogManager.getLogger(loginServlet.class);
-    private UserService userService;
-    @Override
-    public void init(){
-        userService = new UserService();
-    }
+    private final UserService userService= new UserService();
+    private final JwtUtil jwtUtil= new JwtUtil();
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     }
@@ -32,15 +27,19 @@ public class loginServlet extends HttpServlet {
         String password = request.getParameter("password");
         RC result = userService.authenticate(username,password);
         if(result == RC.SUCCESS){
-//            String token = userService.generateToken(username);
-//            Cookie cookie = new Cookie("sso-token", token);
-//            cookie.setPath("/");
-//            cookie.setMaxAge(3600);
-//            response.addCookie(cookie);
+            logger.info("匹配到了用户名且密码正确,生成token");
+            String token = jwtUtil.generateToken(username);
+            logger.info("生成的token为: "+token);
+            Cookie cookie = new Cookie("sso-token",token);
+            cookie.setPath("/");
+            cookie.setMaxAge(3600);
+            response.addCookie(cookie);
+//            //添加用户名到session
+//            response.setAttribute("username",username);
             response.sendRedirect("home.jsp");
         }else{
             request.setAttribute("error", result.getMessage());
-            request.getRequestDispatcher("index.jsp").forward(request, response);
+            request.getRequestDispatcher("home.jsp").forward(request, response);
         }
     }
 }
