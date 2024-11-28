@@ -3,4 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <listener>
+        <listener-class>org.sso.listener.SessionListener</listener-class>
+    </listener>
+    <filter>
+        <filter-name>MyFilter</filter-name>
+        <filter-class>org.sso.filter.JwtFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/home</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/index</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/viewHistory</url-pattern>
+    </filter-mapping>
 </web-app>

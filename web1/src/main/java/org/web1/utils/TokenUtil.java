@@ -9,9 +9,9 @@ public class TokenUtil {
         URL obj= new URL(url);
         HttpURLConnection con = (HttpURLConnection)obj.openConnection();
         con.setRequestMethod("GET");
-        System.out.println("web1 ready to send token check request");
+        System.out.println("web2 ready to send token check request");
         int responseCode = con.getResponseCode();
-        System.out.println("web1 token check response code "+responseCode);
+        System.out.println("web2 token check response code "+responseCode);
         if (responseCode == HttpURLConnection.HTTP_OK) { // success
             try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
                 String inputLine;
@@ -23,7 +23,7 @@ public class TokenUtil {
                 return Boolean.parseBoolean(content.toString());
             }
         } else {
-            System.out.println("web1 token check failed");
+            System.out.println("web2 token check failed");
             return false;
             //throw new RuntimeException("Failed to check token: " + responseCode);
         }

@@ -1,6 +1,7 @@
 package org.web1.utils;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Optional;
 public class CookieUtil {
     public static Optional<Cookie> getCookieByName(HttpServletRequest request, String name) {
@@ -19,5 +20,17 @@ public class CookieUtil {
         }
 
         return Optional.empty();
+    }
+    public static void clearCookies(HttpServletResponse response) {
+        Cookie tokenCookie = new Cookie("token", "");
+        tokenCookie.setPath("/");
+        tokenCookie.setHttpOnly(true);
+        tokenCookie.setMaxAge(0);
+//        Cookie sessionIdCookie = new Cookie("JSESSIONID", "");
+//        sessionIdCookie.setPath("/");
+//        sessionIdCookie.setHttpOnly(true);
+//        sessionIdCookie.setMaxAge(0);
+        response.addCookie(tokenCookie);
+//        response.addCookie(sessionIdCookie);
     }
 }

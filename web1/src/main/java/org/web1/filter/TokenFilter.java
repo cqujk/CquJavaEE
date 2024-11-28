@@ -1,5 +1,7 @@
 package org.web1.filter;
 
+import org.web1.dao.UserSessionRedis;
+import org.web1.service.UserService;
 import org.web1.utils.CookieUtil;
 
 import javax.servlet.annotation.WebFilter;
@@ -15,8 +17,10 @@ import java.util.Optional;
 
 import static org.web1.utils.TokenUtil.checkToken;
 
-@WebFilter("/*")
+@WebFilter("/index")
 public class TokenFilter implements Filter {
+    UserSessionRedis userSessionRedis = new UserSessionRedis();
+    UserService userService = new UserService();
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
@@ -34,6 +38,12 @@ public class TokenFilter implements Filter {
                 boolean isValid = checkToken(ssoUrl);
                 System.out.println("Web1 filter check result "+ isValid);
                 if (isValid) {
+                    Optional<Cookie>userIdCookie = CookieUtil.getCookieByName(httpRequest, "userId");
+                    if (userIdCookie.isPresent()) {
+                        String userId = userIdCookie.get().getValue();
+                        userSessionRedis.login(userId, System.currentTimeMillis());
+                        userService.insertLoginRecord(userId);
+                    }
                     chain.doFilter(request, response);
                 } else {
                     httpResponse.sendRedirect("http://127.0.0.1:9003/index");

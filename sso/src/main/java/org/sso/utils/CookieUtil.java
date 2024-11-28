@@ -16,7 +16,6 @@ public class CookieUtil {
         //tokenCookie.setDomain("127.0.0.1"); // 设置域，使其在多个端口之间有效
         tokenCookie.setMaxAge((int) (EXPIRATION_TIME / 1000)); // 设置 Cookie 的时间
 
-
         System.out.println("Cookie created: " + token);
         return tokenCookie;
     }
@@ -25,14 +24,12 @@ public class CookieUtil {
         tokenCookie.setPath("/");
         tokenCookie.setHttpOnly(true);
         tokenCookie.setMaxAge(0);
-
-        Cookie sessionIdCookie = new Cookie("sessionId", "");
-        sessionIdCookie.setPath("/");
-        sessionIdCookie.setHttpOnly(true);
-        sessionIdCookie.setMaxAge(0);
-
+//        Cookie sessionIdCookie = new Cookie("JSESSIONID", "");
+//        sessionIdCookie.setPath("/");
+//        sessionIdCookie.setHttpOnly(true);
+//        sessionIdCookie.setMaxAge(0);
         response.addCookie(tokenCookie);
-        response.addCookie(sessionIdCookie);
+//        response.addCookie(sessionIdCookie);
     }
 }
 
