@@ -20,6 +20,6 @@ Todo（Maybe):可以考虑将redis数据与MySQL上的数据作一致性同步�
 
 ## 第四次实验
 
-SpringBoot
+SpringBoot+Next.js
 
 MySQL数据库性能调优
