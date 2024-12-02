@@ -19,6 +19,8 @@
       }
     ],
     "paths": {
+      "@fonts/*": ["./public/fonts/*"],
+      //public/fonts/GeistMonoVF.woff
       "@/*": ["./src/*"]
     }
   },
