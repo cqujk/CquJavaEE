@@ -2,7 +2,11 @@
 import {useState} from "react";
 import Link from "next/link";
 import Header from "@/components/Header"
-export default function Layout({children}){
+export default function Layout({
+                                   children,
+                               }:{
+    children: React.ReactNode;
+}){
     const [count,setCount]=useState(0)
     return(
         <div>
