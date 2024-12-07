@@ -20,6 +20,13 @@ Todo（Maybe):可以考虑将redis数据与MySQL上的数据作一致性同步�
 
 ## 第四次实验
 
-SpringBoot+Next.js
 
-MySQL数据库性能调优
+网关 80 ： Nginx
+
+前端 3000: Next.js+TypeScript
+
+用户鉴权 8081： spirngSecurity+Jwt+H2DataBase
+
+后端 8080：SpringBoot+MySQL
+
+MySQL数据库性能调优,JSON字段
