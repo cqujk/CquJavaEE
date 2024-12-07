@@ -29,4 +29,4 @@ Todo（Maybe):可以考虑将redis数据与MySQL上的数据作一致性同步�
 
 后端 8080：SpringBoot+MySQL
 
-MySQL数据库性能调优,JSON字段
+MySQL数据库性能调优,JSON字段；维护数据一致性
