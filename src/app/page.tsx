@@ -1,102 +1,139 @@
-import Image from "next/image";
-import Link from "next/link";
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly. Hello JiaKe!</li>
-        </ol>
-        <Link href="/dashboard"> To dashboard</Link>
-        {/*这是中间的两个按钮*/}
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+'use client'
+import React, {useState} from "react";
+import { useRouter } from 'next/navigation';
+
+export default function LoginPage() {
+  const [userId, setUserId]=useState('');
+  const [password, setPassword]=useState('');
+  const [error,setError]=useState('');
+  const [loading,setLoading]=useState(false);
+  const [isRegisterModalOpen, setIsRegisterModalOpen] = useState(false);
+  const router=useRouter();
+  //push login request
+  const handleSubmit=async(e:React.FormEvent)=>{
+    e.preventDefault();
+    setError('');
+    setLoading(true);
+    //console.log('即将发送登录请求...');
+    try{
+      const res=//await fetch('http://localhost:8080/login',{
+          //await fetch('http://localhost:8081/auth/login',{
+          await fetch('/auth/login',{
+            method:'POST',
+            headers:{
+              'Content-Type':'application/json'
+            },
+            body:JSON.stringify({id:userId,password:password}),
+          });
+      //console.log('请求已发送');
+      if(res.ok){
+        // 登录成功，重定向到主页或其他页面
+        const data=await res.json();
+        localStorage.setItem('jwtToken',data.token);
+        localStorage.setItem('userType',data.userType);
+        localStorage.setItem('userId',userId);
+        router.push('/home');
+      }else{
+        // 登录失败，显示错误信息
+        const data=await res.json();
+        setError(data.message);
+      }
+    }catch (err){
+
+      setError('登录失败');
+    }finally {
+      setLoading(false);
+    }
+  };
+  //push register request
+  const handleRegisterSubmit =async(e:React.FormEvent)=>{
+    e.preventDefault();
+    setLoading(true);
+    const userId = (document.getElementById('registerUserId') as HTMLInputElement).value;
+    const password = (document.getElementById('registerPassword') as HTMLInputElement).value;
+    // const userType= (document.getElementById('userType') as HTMLInputElement).value;
+    try{
+      const res=await fetch('http://localhost:8081/auth/register',{
+        method:'POST',
+        headers:{
+          'Content-Type':'application/json'
+        },
+        body:JSON.stringify({id:userId,password:password}),
+      });
+      if(res.ok){
+        alert('注册成功');
+      }else{
+        const data=await res.json();
+        console.log(data);
+        alert(data.message);
+      }
+    }catch (err){
+      console.error(err);
+      setError('注册ssss');
+    }finally {
+      setLoading(false);
+    }
+  };
+
+
+  return(
+      <div>
+        <h1>Login Page</h1>
+        <form onSubmit={handleSubmit}>
+          <input type="userId"
+                 placeholder="请输入编号"
+                 value={userId}
+                 onChange={(e) => setUserId(e.target.value)}
+                 required
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+          <input type="password"
+                 value={password}
+                 onChange={(e) => setPassword(e.target.value)}
+                 placeholder="password"
+                 required
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+          <button type="submit" disabled={loading}>
+            {loading ? 'Loading...' : 'Login'}
+          </button>
+          {error && <p className="error">{error}</p>}
+        </form>
+        <button onClick={() => setIsRegisterModalOpen(true)}>注册</button>
+        {isRegisterModalOpen && (
+            <>
+              <div
+                  style={{
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                    zIndex: 1000
+                  }}
+              ></div>
+              <div style={{
+                position: 'fixed',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                background: 'white',
+                padding: '20px',
+                boxShadow: '0 0 10px rgba(0,0,0,0.1)',
+                zIndex: 1001
+              }}>
+                <h2>注册</h2>
+                <form onSubmit={handleRegisterSubmit}>
+                  <input type="text" id="registerUserId" placeholder="用户编号" required/>
+                  <input type="password" id="registerPassword" placeholder="密码" required/>
+                  <button type="submit">
+                    {loading ? 'Loading...' : '注册'}
+                  </button>
+                  {error && <p className="error">{error}</p>}
+                </form>
+                <button onClick={() => setIsRegisterModalOpen(false)}>关闭</button>
+              </div>
+            </>
+        )}
+      </div>
+  )
 }
