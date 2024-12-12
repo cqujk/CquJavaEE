@@ -1,71 +1,118 @@
-import React, { useEffect, useState } from 'react';
-import BaseTable from './BaseTable';
+import React, {useEffect, useState} from 'react';
+import BaseTable from '@/components/Table/BaseTable';
+import fetchWithAuth from "@/lib/api/fetchWithAuth";
 
 interface DetailModalProps {
     isOpen: boolean;
     onClose: () => void;
-    rowId: number | string; // 假设每行数据都有一个唯一的ID
+    teachingId: number | string | null; // 假设每行数据都有一个唯一的ID
 }
 
-const DetailModal: React.FC<DetailModalProps> = ({ isOpen, onClose, rowId }) => {
-    const [rowData, setRowData] = useState<any[]>([]);
-    const [loading, setLoading] = useState<boolean>(true);
-    const [error, setError] = useState<string | null>(null);
-
+const DetailModal: React.FC<DetailModalProps> = ({isOpen, onClose, teachingId}) => {
+    //const [classDetails, setClassDetails] = useState<any>(null);
+    const [loading, setLoading] = useState(true);
+    // const [error, setError] = useState<string | null>(null);
+    const [showData, setShowData] = useState<any[]>([]);
     useEffect(() => {
-        if (isOpen) {
+        if (isOpen && teachingId) {
             fetchDetailData();
         }
-    }, [isOpen, rowId]);
+    }, [isOpen, teachingId]);
 
     const fetchDetailData = async () => {
         try {
-            const response = await fetch(`xxx/${rowId}`); // 假设URL为 xxx/{rowId}
+            const response = await fetchWithAuth(`/api/teaching-record/teacher-class-info-detail?teachingId=${teachingId}`); // 假设URL为 xxx/{rowId}
             if (!response.ok) {
-                throw new Error('Network response was not ok');
+                console.log('Error:', response.status, response.statusText)
+                //throw new Error('Network response was not ok');
             }
             const data = await response.json();
-            setRowData(data);
+            // setTeachingId(data);
+            // 解析 gradeDetail 字段
+            console.log('Data:', data);
+            const parsedData = data.detailedClassInfo.map((cls:any)=>({
+                ...cls,
+                gradeDetail: JSON.parse(cls.gradeDetail)
+            }));
+            console.log('Parsed Data:', parsedData);
+            setShowData(parsedData);
         } catch (error) {
-            setError(error.message);
+            //setError(error.message);
+            console.error(error);
         } finally {
             setLoading(false);
         }
     };
-
-    if (!isOpen) {
-        return null;
-    }
+    // 确保 useMemo 始终被调用
+    const data = React.useMemo(
+        () =>
+            showData?.map((cls) =>
+                ({
+                    studentId: cls.studentId,
+                    totalGrade: cls.totalGrade,
+                    enrollmentId: cls.enrollmentId,
+                    gradeDetail: cls.gradeDetail,
+                    studentName: cls.studentName,
+                    gender: cls.gender === "f"?'女':'男',
+                    major: cls.major,
+                    gpa: cls.gpa,
+                })),
+        [showData]
+    );
 
     const columns = React.useMemo(
         () => [
             {
-                Header: 'ID',
-                accessor: 'id',
+                Header: '总成绩',
+                accessor: 'totalGrade',
             },
             {
-                Header: 'Name',
-                accessor: 'name',
+                Header: '实验成绩',
+                accessor: 'gradeDetail.lab_score',
             },
             {
-                Header: 'Value',
-                accessor: 'value',
+                Header: '期末成绩',
+                accessor: 'gradeDetail.final_score',
             },
-            // 添加其他列
+            {
+                Header: '期中成绩',
+                accessor: 'gradeDetail.midterm_score',
+            },
+            {
+                Header: '平时成绩',
+                accessor: 'gradeDetail.regular_score',
+            },
+            {
+                Header: '学生姓名',
+                accessor: 'studentName',
+            },
+            {
+                Header: '性别',
+                accessor: 'gender',
+            },
+            {
+                Header: '专业',
+                accessor: 'major',
+            },
+            {
+                Header: 'GPA',
+                accessor: 'gpa',
+            },
         ],
         []
     );
-
+    if (!isOpen) {
+        return null;
+    }
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="bg-white p-6 rounded shadow-lg w-full max-w-3xl">
                 <h2 className="text-xl font-bold mb-4">详细信息</h2>
                 {loading ? (
                     <div>Loading...</div>
-                ) : error ? (
-                    <div className="text-red-500">{error}</div>
-                ) : rowData && rowData.length > 0 ? (
-                    <BaseTable columns={columns} data={rowData} />
+                ) : showData ? (
+                     <BaseTable columns={columns} data={showData} />
+                    // <h1>{teachingId}</h1>
                 ) : (
                     <div>No data available</div>
                 )}
@@ -78,6 +125,7 @@ const DetailModal: React.FC<DetailModalProps> = ({ isOpen, onClose, rowId }) => 
             </div>
         </div>
     );
-};
+}
+
 
 export default DetailModal;

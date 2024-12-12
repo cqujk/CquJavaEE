@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "@/styles/globals.css";
 import React from "react";
 //
@@ -30,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}
-          className={`antialiased h-screen`}
+          className={`h-screen`}
       >
         {children}
       </body>

@@ -4,7 +4,8 @@ import { useTable, useFilters, useSortBy, usePagination } from 'react-table';
 interface BaseTableProps {
     columns: any[];
     data: any[];
-    onRowClick?: (rowId: number | string) => void; // 可选的行点击事件处理函数
+    //onRowClick?: (rowId: number | string) => void; // 可选的行点击事件处理函数
+    onRowClick?: (rowData: Record<string, any>) => void; // 可选的行点击事件处理函数
 }
 
 const BaseTable: React.FC<BaseTableProps> = ({ columns, data, onRowClick }) => {
@@ -107,7 +108,7 @@ const BaseTable: React.FC<BaseTableProps> = ({ columns, data, onRowClick }) => {
                                 }`}
                                 onClick={() => {
                                     if (onRowClick) {
-                                        onRowClick(row.original.id); // 假设每行数据都有一个唯一的ID
+                                        onRowClick(row.original); // 假设每行数据都有一个唯一的ID
                                     }
                                 }}
                             >
