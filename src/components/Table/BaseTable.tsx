@@ -50,18 +50,17 @@ const BaseTable: React.FC<BaseTableProps> = ({ columns, data, onRowClick }) => {
     );
 
     return (
-        <div className="bg-auto p-2">
+        <div className="bg-white p-4 rounded-lg shadow-md">
             {/* 搜索栏 */}
-            {/* 选择要搜索的列 */}
-            <div className="mb-2 flex items-center">
+            <div className="mb-4 flex items-center space-x-2">
                 <select
                     value={selectedColumn || ''}
                     onChange={(e) => setSelectedColumn(e.target.value)}
-                    className="mr-1 p-1 border rounded bg-auto text-balance"
+                    className="p-2 border rounded bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
-                    <option value="" className="text-balance">选择筛选字段</option>
+                    <option value="">选择筛选字段</option>
                     {columns.map((column) => (
-                        <option key={column.accessor} value={column.accessor} className="text-balance">
+                        <option key={column.accessor} value={column.accessor}>
                             {column.Header}
                         </option>
                     ))}
@@ -72,84 +71,84 @@ const BaseTable: React.FC<BaseTableProps> = ({ columns, data, onRowClick }) => {
                     value={searchValue}
                     onChange={(e) => setSearchValue(e.target.value)}
                     placeholder="Search..."
-                    className="p-1 border rounded"
+                    className="p-2 border rounded bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
             </div>
 
             {/* 表格 */}
-            <table {...getTableProps()} className="w-full border-t border-b border-gray-300">
+            <table {...getTableProps()} className="w-full table-auto">
                 <thead>
-                    {headerGroups.map((headerGroup) => (
-                        <tr {...headerGroup.getHeaderGroupProps()} className="bg-gray-100">
-                            {headerGroup.headers.map((column) => (
-                                // 添加排序功能
-                                <th
-                                    {...column.getHeaderProps(column.getSortByToggleProps())}
-                                    className="p-1 text-center border-b border-gray-300"
-                                >
+                {headerGroups.map((headerGroup) => (
+                    <tr {...headerGroup.getHeaderGroupProps()} className="bg-gray-100">
+                        {headerGroup.headers.map((column) => (
+                            // 添加排序功能
+                            <th
+                                {...column.getHeaderProps(column.getSortByToggleProps())}
+                                className="p-2 text-center border-b border-gray-300"
+                            >
+                                <div className="flex items-center justify-center">
                                     {column.render('Header')}
                                     {/* 显示排序图标 */}
-                                    <span>
-                                        {column.isSorted ? (column.isSortedDesc ? ' 🔽' : ' 🔼') : ''}
-                                    </span>
-                                </th>
-                            ))}
-                        </tr>
-                    ))}
+                                    {column.isSorted ? (column.isSortedDesc ? ' 🔽' : ' 🔼') : ''}
+                                </div>
+                            </th>
+                        ))}
+                    </tr>
+                ))}
                 </thead>
                 <tbody {...getTableBodyProps()}>
-                    {page.map((row) => {
-                        prepareRow(row);
-                        return (
-                            <tr
-                                {...row.getRowProps()}
-                                className={`border-b border-gray-300 ${
-                                    onRowClick ? 'cursor-pointer hover:bg-gray-200' : ''
-                                }`}
-                                onClick={() => {
-                                    if (onRowClick) {
-                                        onRowClick(row.original); // 假设每行数据都有一个唯一的ID
-                                    }
-                                }}
-                            >
-                                {row.cells.map((cell) => (
-                                    <td {...cell.getCellProps()} className="p-1 text-center border-r border-gray-300">
-                                        {cell.render('Cell')}
-                                    </td>
-                                ))}
-                            </tr>
-                        );
-                    })}
+                {page.map((row) => {
+                    prepareRow(row);
+                    return (
+                        <tr
+                            {...row.getRowProps()}
+                            className={`border-b border-gray-300 ${
+                                onRowClick ? 'cursor-pointer hover:bg-gray-100 transition duration-300' : ''
+                            }`}
+                            onClick={() => {
+                                if (onRowClick) {
+                                    onRowClick(row.original); // 假设每行数据都有一个唯一的ID
+                                }
+                            }}
+                        >
+                            {row.cells.map((cell) => (
+                                <td {...cell.getCellProps()} className="p-2 text-center border-r border-gray-300">
+                                    {cell.render('Cell')}
+                                </td>
+                            ))}
+                        </tr>
+                    );
+                })}
                 </tbody>
             </table>
             {/* 分页控制 */}
-            <div className="mt-2 flex justify-between items-center">
+            <div className="mt-4 flex justify-between items-center">
                 <div>
                     <button
                         onClick={() => gotoPage(0)}
                         disabled={!canPreviousPage}
-                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300"
+                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300 disabled:text-gray-500"
                     >
                         {'<<'}
                     </button>
                     <button
                         onClick={() => previousPage()}
                         disabled={!canPreviousPage}
-                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300"
+                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300 disabled:text-gray-500"
                     >
                         {'<'}
                     </button>
                     <button
                         onClick={() => nextPage()}
                         disabled={!canNextPage}
-                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300"
+                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300 disabled:text-gray-500"
                     >
                         {'>'}
                     </button>
                     <button
                         onClick={() => gotoPage(pageCount - 1)}
                         disabled={!canNextPage}
-                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300"
+                        className="px-2 py-1 mr-2 bg-blue-500 text-white rounded disabled:bg-gray-300 disabled:text-gray-500"
                     >
                         {'>>'}
                     </button>
@@ -170,7 +169,7 @@ const BaseTable: React.FC<BaseTableProps> = ({ columns, data, onRowClick }) => {
                                 const page = e.target.value ? Number(e.target.value) - 1 : 0;
                                 gotoPage(page);
                             }}
-                            className="ml-2 w-16 px-2 py-1 border rounded"
+                            className="ml-2 w-16 px-2 py-1 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </span>
                     <select
@@ -178,7 +177,7 @@ const BaseTable: React.FC<BaseTableProps> = ({ columns, data, onRowClick }) => {
                         onChange={(e) => {
                             setPageSize(Number(e.target.value));
                         }}
-                        className="ml-2 px-2 py-1 border rounded"
+                        className="ml-2 px-2 py-1 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                     >
                         {[10, 20, 30, 40, 50].map((pageSize) => (
                             <option key={pageSize} value={pageSize}>

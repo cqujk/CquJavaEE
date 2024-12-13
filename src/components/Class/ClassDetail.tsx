@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import BaseTable from '@/components/Table/BaseTable';
 import fetchWithAuth from "@/lib/api/fetchWithAuth";
-
+import ChartAndStats from "@/components/Class/ClassChartAndStats";
 interface DetailModalProps {
     isOpen: boolean;
     onClose: () => void;
@@ -31,10 +31,16 @@ const DetailModal: React.FC<DetailModalProps> = ({isOpen, onClose, teachingId}) 
             // 解析 gradeDetail 字段
             console.log('Data:', data);
             const parsedData = data.detailedClassInfo.map((cls:any)=>({
-                ...cls,
+                studentId: cls.studentId,
+                totalGrade: cls.totalGrade,
+                enrollmentId: cls.enrollmentId,
+                studentName: cls.studentName,
+                gender: cls.gender === "f"?'女':'男',
+                major: cls.major,
+                gpa: cls.gpa,
                 gradeDetail: JSON.parse(cls.gradeDetail)
             }));
-            console.log('Parsed Data:', parsedData);
+           // console.log('Parsed Data:', parsedData);
             setShowData(parsedData);
         } catch (error) {
             //setError(error.message);
@@ -53,7 +59,7 @@ const DetailModal: React.FC<DetailModalProps> = ({isOpen, onClose, teachingId}) 
                     enrollmentId: cls.enrollmentId,
                     gradeDetail: cls.gradeDetail,
                     studentName: cls.studentName,
-                    gender: cls.gender === "f"?'女':'男',
+                    gender: cls.gender, // 这里已经是转换后的值
                     major: cls.major,
                     gpa: cls.gpa,
                 })),
@@ -62,6 +68,22 @@ const DetailModal: React.FC<DetailModalProps> = ({isOpen, onClose, teachingId}) 
 
     const columns = React.useMemo(
         () => [
+            {
+                Header: '学号',
+                accessor: 'studentId',
+            },
+            {
+                Header: '学生姓名',
+                accessor: 'studentName',
+            },
+            {
+                Header: '性别',
+                accessor: 'gender',
+            },
+            {
+                Header: '专业',
+                accessor: 'major',
+            },
             {
                 Header: '总成绩',
                 accessor: 'totalGrade',
@@ -82,22 +104,11 @@ const DetailModal: React.FC<DetailModalProps> = ({isOpen, onClose, teachingId}) 
                 Header: '平时成绩',
                 accessor: 'gradeDetail.regular_score',
             },
-            {
-                Header: '学生姓名',
-                accessor: 'studentName',
-            },
-            {
-                Header: '性别',
-                accessor: 'gender',
-            },
-            {
-                Header: '专业',
-                accessor: 'major',
-            },
-            {
-                Header: 'GPA',
-                accessor: 'gpa',
-            },
+
+            // {
+            //     Header: 'GPA',
+            //     accessor: 'gpa',
+            // },
         ],
         []
     );
@@ -106,22 +117,32 @@ const DetailModal: React.FC<DetailModalProps> = ({isOpen, onClose, teachingId}) 
     }
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div className="bg-white p-6 rounded shadow-lg w-full max-w-3xl">
-                <h2 className="text-xl font-bold mb-4">详细信息</h2>
-                {loading ? (
-                    <div>Loading...</div>
-                ) : showData ? (
-                     <BaseTable columns={columns} data={showData} />
-                    // <h1>{teachingId}</h1>
-                ) : (
-                    <div>No data available</div>
-                )}
-                <button
-                    onClick={onClose}
-                    className="mt-4 px-4 py-2 bg-red-500 text-white rounded"
-                >
-                    关闭
-                </button>
+            <div className="bg-white p-6 rounded shadow-lg w-full max-w-6xl overflow-hidden max-h-screen flex flex-row h-full">
+                <div className="w-1/3 pr-2 h-full overflow-y-auto border-r border-gray-300">
+                    {showData && showData.length > 0 ? (
+                        <ChartAndStats data={showData}/>
+                    ) : (
+                        <div>Loading...</div>
+                    )}
+                </div>
+                <div className="w-2/3 pl-2 h-full overflow-y-auto">
+                    <h2 className="text-xl font-bold mb-4">详细信息</h2>
+                    {loading ? (
+                        <div>Loading...</div>
+                    ) : showData && showData.length > 0 ? (
+                        <>
+                            <BaseTable columns={columns} data={showData}/>
+                            <button
+                                onClick={onClose}
+                                className="mt-4 px-4 py-2 bg-red-500 text-white rounded"
+                            >
+                                关闭
+                            </button>
+                        </>
+                    ) : (
+                        <div>No data available</div>
+                    )}
+                </div>
             </div>
         </div>
     );

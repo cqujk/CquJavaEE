@@ -116,10 +116,19 @@ const TeacherClass: React.FC<TeacherClassProps> = ({ teacherId }) => {
     if (loading) return <p>Loading...</p>;
 
     return (
-        <div>
-            <h1>My Teaching Classes</h1>
-            <MyTeachingClassTable columns={columns} data={data} onRowClick={handleRowClick}/>
-            <DetailModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} teachingId={ selectedTeachingId}/>
+        <div className="container mx-auto p-6 bg-white rounded-lg shadow-md mt-8">
+            <h1 className="text-2xl font-bold text-gray-800 mb-4">我的授课</h1>
+            <MyTeachingClassTable
+                columns={columns}
+                data={data}
+                onRowClick={handleRowClick}
+                className="mb-4" // 添加间距
+            />
+            <DetailModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                teachingId={selectedTeachingId}
+            />
         </div>
     );
 };

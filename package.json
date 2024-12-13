@@ -16,7 +16,8 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "react-table": "^7.8.0"
+    "react-table": "^7.8.0",
+    "recharts": "^2.14.1"
   },
   "devDependencies": {
     "@types/node": "^20",
