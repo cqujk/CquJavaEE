@@ -15,6 +15,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true); // 允许cookies跨域
         config.addAllowedOrigin("http://localhost"); // 允许向该服务器的源
+       // config.addAllowedOrigin("http://localhost:3000"); // 允许向该服务器的源
         config.addAllowedHeader("*"); // 允许所有的头
         config.addAllowedMethod("*"); // 允许所有的方法
         source.registerCorsConfiguration("/**", config);

@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class AuthenticationRequest {
-    private String username;
+    private Long id;
     private String password;
 
     // Getters and Setters

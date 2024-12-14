@@ -14,7 +14,7 @@ import java.util.Date;
 
 @Component
 public class JwtTokenProvider {
-    private static final Logger logger = LoggerFactory.getLogger(JwtAuthenticationFilter.class);
+    //private static final Logger logger = LoggerFactory.getLogger(JwtAuthenticationFilter.class);
 
     @Value("${app.jwtSecret}")
     private String jwtSecret;
@@ -33,7 +33,7 @@ public class JwtTokenProvider {
                 .compact();
     }
 
-    public String getUsernameFromToken(String token) {
+    public String getUserIdFromToken(String token) {
         Claims claims = Jwts.parser()
                 .setSigningKey(jwtSecret)
                 .parseClaimsJws(token)
@@ -52,7 +52,7 @@ public class JwtTokenProvider {
     }
 
     public String resolveToken(HttpServletRequest request) {
-        logger.debug(" Jwt Provider has been touch");
+        //logger.debug(" Jwt Provider has been touch");
         System.out.println("jwt provider has been touch");
         String bearerToken = request.getHeader("Authorization");
         //String bearerToken="sss";

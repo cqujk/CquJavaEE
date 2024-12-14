@@ -14,15 +14,15 @@ import java.util.Collection;
 //@TableName("user")
 public class User implements UserDetails {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+   // @GeneratedValue(strategy = GenerationType.IDENTITY)
     // @TableId(type = IdType.AUTO)
-    private Integer userId;
+    private Long userId;
     //@TableField(value = "user_name")
-    @Column(name = "user_name")
-    private String username;
     private String password;
     @Enumerated(EnumType.STRING)
     private UserType userType; // 使用枚举类型
+
+    private Boolean isActive;
     // Getters and Setters
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -37,7 +37,8 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return username;
+        System.out.println("the getUsername function has been touch");
+        return String.valueOf(userId);
     }
 
     @Override
@@ -57,6 +58,6 @@ public class User implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return true;
+        return isActive;
     }
 }

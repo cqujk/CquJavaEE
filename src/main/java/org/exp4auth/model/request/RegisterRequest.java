@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class RegisterRequest {
-    private String username;
+    private Long id;
     private String password;
-    private String userType;
+    //private String userType;
     // Getters and Setters
 }

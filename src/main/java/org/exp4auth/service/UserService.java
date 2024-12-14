@@ -22,16 +22,16 @@ public class UserService  implements UserDetailsService {
     @Autowired
     private UserRepository userRepository;
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Optional<User> optionalUser = userRepository.findByUsername(username);
+    public UserDetails loadUserByUsername(String userId) throws UsernameNotFoundException {
+        Optional<User> optionalUser = userRepository.findByUserId(Long.valueOf(userId));
         if (optionalUser.isPresent()) {
             User user = optionalUser.get();
-            System.out.println("User found: " + user);
+            //System.out.println("User found: " + user);
             // 将角色列表转换为GrantedAuthority列表
             Collection<? extends GrantedAuthority> authorities = user.getAuthorities();
             // 创建Spring Security的User对象
             return new org.springframework.security.core.userdetails.User(
-                    user.getUsername(),
+                    String.valueOf(user.getUserId()), // 使用userId作为用户名
                     user.getPassword(), // 确保密码已加密
                     true, // enabled
                     true, // accountNonExpired
@@ -39,14 +39,14 @@ public class UserService  implements UserDetailsService {
                     true, // accountNonLocked
                     authorities);
         } else {
-            throw new UsernameNotFoundException("User not found with username: " + username);
+            throw new UsernameNotFoundException("User not found with userId: " + userId);
         }
 
     }
-    public List<UserResponse> getAllUsers() {
-        return userRepository.findAll().stream()
-                .map(user -> new UserResponse(user.getUserId(), user.getUsername(), user.getPassword()))
-                .collect(Collectors.toList());
-    }
+//    public List<UserResponse> getAllUsers() {
+//        return userRepository.findAll().stream()
+//                .map(user -> new UserResponse(user.getUserId(), user.getUsername(), user.getPassword()))
+//                .collect(Collectors.toList());
+//    }
 }
 
